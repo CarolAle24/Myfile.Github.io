@@ -7,8 +7,8 @@
     </head>
     <body> 
         <header>
-            <h1 style="text-align: center" >Carolina A. Ruiz</h1>
-            <h2>Estudiante</h2>
+            <h1 style="text-align: center" class="para" >Carolina A. Ruiz</h1>
+            <h2 class="para">Estudiante </h2>
             <nav>
                 <ul>
                     <a href="#acerca-de-mi" class="menu-items"> Acerca de Mi</a>
@@ -16,6 +16,7 @@
                     <a href="#experiencia" class="menu-items"> Experiencia Previa</a>
                     <a href="#proyectos" class="menu-items"> Proyectos</a>
                     <a href="#contacto" class="menu-items"> Contacto</a>
+                    <a href="#formacion" class="menu-items"> Formación</a>
                 </ul>
             </nav>
         </header>
@@ -59,15 +60,23 @@
                     <p>H3 AGROCHEMICALS</p>
                     <li><strong>Profesora Auxiliar</strong></li>
                     <p>HOUSE OF ENGLISH (2023)</p>
+            </section>
+            <section id="formacion">
+                <h2>Formación</h2>
+                    <ul>
+                    <li><strong> Contador Público Nacional-5to año </strong>(presente)</li>
+                    <p>UNIVERSIDAD CATÓLICA "NUESTRA SEÑORA DE LA ASUNCIÓN</p>
+                    <li><strong>Idioma Inglés</strong>(2018-2021)</li>
+                    <p>CENTRO CULTURAL PARAGUAYO AMERICANO</p>
                 </ul>
             </section>
             <section id="proyectos">
                 <h2>Proyectos</h2>
                 <ul>
                     <li>
-                        <a href="https://www.oxfordlearnersbookshelf.com/">Proyecto 1</a>
+                        <a href="https://www.oxfordlearnersbookshelf.com/">Proyecto 1 - Descripción</a>
                     </li>
-                    <li><a href="https://vdocuments.site/category/self-improvement.html">Proyecto 2</a>
+                    <li><a href="https://vdocuments.site/category/self-improvement.html">Proyecto 2  - Descripción</a>
                     </li>
                 </ul>
             </section>
@@ -84,8 +93,28 @@
                     
                 </ul>
         </main>
+        <p> Si tienes alguna consulta, pregunta aquí: </p>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail" />
+              </li>
+              <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>
+          </form>
         <footer>
-            <p>Copyright &copy; 2024</p>
+             <p>Copyright &copy; 2024</p>
         </footer>
     </body>
 </html>
